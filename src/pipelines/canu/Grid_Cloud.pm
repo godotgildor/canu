@@ -580,7 +580,7 @@ sub stashOvlStoreShellCode ($$) {
         $code .= " ./$asm.ovlStore.config \\\n";
         $code .= " ./$asm.ovlStore.config.txt \\\n";
         $code .= "| \\\n";
-        $code .= "dx-ua --wait-on-close --project \"$pr\" --folder \"$ns/$base/\" --name \"$asm.ovlStore.tar" --read-from-stdin -\n";
+        $code .= "dx-ua --wait-on-close --project \"$pr\" --folder \"$ns/$base/\" --name \"$asm.ovlStore.tar\" --read-from-stdin -\n";
         $code .= "\n";
         $code .= "#\n";
         $code .= "#  Upload data files.\n";
